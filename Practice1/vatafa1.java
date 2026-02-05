@@ -12,7 +12,8 @@ class vatafa1 {
         System.out.print("Task 2. Enter number: ");
         String num1 = scanner.nextLine();
         int num2 = Integer.parseInt(num1);
-        System.err.println("Area = " + (num2 * num2) + "; Perimeter = " + (4 * num2) + "; Diagonal = " + (num2 * Math.sqrt(2)));
+        int area = num2 * num2;
+        System.err.println("Area = " + area + "; Perimeter = " + (4 * num2) + "; Diagonal = " + (num2 * Math.sqrt(2)));
 ///TASK 3
         System.out.print("Task 3. Enter marks: ");
         String mark1 = scanner.nextLine();
