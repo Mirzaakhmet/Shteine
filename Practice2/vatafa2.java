@@ -48,7 +48,7 @@ class Time { // Task 3
         setTime(hour, minute, second);
     }
 
-    public void setTime(int hour, int minute, int second) {
+    public final void setTime(int hour, int minute, int second) {
         if (isValid(hour, minute, second)) {
             this.hour = hour;
             this.minute = minute;
