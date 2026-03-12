@@ -4,7 +4,7 @@ public class Task5 {
 	public static void main(String[] args) {
 		DragonLaunch dlaunch = new DragonLaunch();
 		dlaunch.kidnap(new Person(Gender.B));
-		dlaunch.kidnap(new Person(Gender.B));
+		dlaunch.kidnap(new Person(Gender.G));
 		dlaunch.kidnap(new Person(Gender.G));
 		dlaunch.kidnap(new Person(Gender.G));
 		Person p = new Person(Gender.B);
