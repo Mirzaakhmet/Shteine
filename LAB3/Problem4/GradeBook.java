@@ -1,6 +1,26 @@
 package LAB3.Problem4;
 import java.util.*;
-import LAB2.Student;
+
+class Student {
+    private final String name;
+    private final int id;
+    private int year;
+
+    public Student(String name, int id) {
+        this.name = name;
+        this.id = id;
+        this.year = 1;
+    }
+
+    public String getName() { return name; }
+    public int getId() { return id; }
+    public int getYear() { return year; }
+    public void nextYear() { year++; }
+
+    Integer getID() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+}
 
 public class GradeBook {
     private Course course;
